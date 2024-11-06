@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.event {
+    background-color: lightblue;
+    cursor: pointer;
+    position: relative;
+}
+
+.event:hover {
+    background-color: deepskyblue;
+}
+
+.event-info {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
